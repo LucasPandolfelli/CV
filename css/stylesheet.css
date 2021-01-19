@@ -1,0 +1,284 @@
+body {
+  background-color: #f5f5f5;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #545E6C;
+}
+
+@media (max-width: 576px) {
+  .container-fluid {
+    padding: 0px;
+  }
+}
+
+.container {
+  padding: 100px 50px 100px 50px;
+  max-width: 1100px;
+}
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 576px) {
+  .row {
+    width: 100%;
+    margin: 0px;
+  }
+}
+.row .jobs {
+  background-color: #ffffff;
+  padding: 50px;
+}
+@media (max-width: 576px) {
+  .row .jobs {
+    padding: 50px 20px 50px 20px;
+  }
+}
+.row .jobs .career__title h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  color: #2d7788;
+  margin-bottom: 30px;
+}
+.row .jobs .career__title h3 i {
+  margin-right: 10px;
+}
+.row .jobs .career__description p {
+  margin-bottom: 30px;
+}
+.row .experience__title h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  color: #2d7788;
+  margin-bottom: 30px;
+}
+.row .experience__title h3 i {
+  margin-right: 10px;
+}
+.row .experience__description p {
+  margin-bottom: 30px;
+}
+@media (max-width: 800px) {
+  .row .experience__info {
+    flex-direction: row;
+  }
+}
+.row .experience__info p {
+  color: #97AAC3;
+}
+.row .experience__info--left {
+  padding: 0px 15px 0px 15px;
+}
+@media (max-width: 576px) {
+  .row .experience__info--left {
+    padding: 0px;
+  }
+}
+.row .experience__info--left h6 {
+  color: #3F4650;
+  font-size: 16px;
+  font-weight: 500;
+}
+.row .experience__info--right p {
+  text-align: right;
+}
+.row .proyects {
+  margin-bottom: 30px;
+}
+.row .proyects__title h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  color: #2d7788;
+  margin-bottom: 30px;
+}
+.row .proyects__title h3 i {
+  margin-right: 10px;
+}
+.row .proyects__description p {
+  margin-bottom: 30px;
+}
+.row .proyects__item a {
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #2d7788;
+}
+.row .proyects__item a:hover {
+  color: #3F4650;
+  transition: 0.5s;
+}
+.row .skills__title h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  color: #2d7788;
+  margin-bottom: 30px;
+}
+.row .skills__title h3 i {
+  margin-right: 10px;
+}
+.row .skills__list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.row .skills__item p {
+  color: #3F4650;
+  font-weight: 500;
+  width: 30%;
+  float: left;
+}
+.row .skills__item .progress-bar {
+  background-color: #4B6A78;
+}
+.row .profile {
+  background-color: #4B6A78;
+  padding: 0px;
+}
+.row .profile .personal {
+  padding: 50px 0px 50px 0px;
+  background-color: #3c5560;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.row .profile .personal__pic img {
+  height: 120px;
+  border-radius: 80px;
+}
+.row .profile .personal__info {
+  text-transform: capitalize;
+  text-align: center;
+}
+.row .profile .personal__info h1 {
+  font-size: 32px;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #fff;
+  margin-top: 30px;
+}
+.row .profile .personal__info h4 {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+}
+.row .profile .contact {
+  padding: 30px;
+}
+@media (min-width: 577px) and (max-width: 800px) {
+  .row .profile .contact {
+    padding: 50px;
+  }
+}
+.row .profile .contact__item {
+  margin-bottom: 20px;
+}
+.row .profile .contact__item a {
+  color: #fff;
+  text-decoration: none;
+}
+.row .profile .contact__item a:hover {
+  color: rgba(255, 255, 255, 0.6);
+  transition: 0.5s;
+}
+.row .profile .contact__item a i {
+  margin-right: 10px;
+}
+.row .profile .education {
+  padding: 30px;
+  color: #fff;
+}
+@media (min-width: 577px) and (max-width: 800px) {
+  .row .profile .education {
+    padding: 50px;
+  }
+}
+.row .profile .education__title {
+  margin-bottom: 20px;
+}
+.row .profile .education__title h4 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.row .profile .education__item {
+  margin-bottom: 20px;
+}
+.row .profile .education__item h6 {
+  font-size: 14px;
+  font-weight: 500;
+}
+.row .profile .education__item p {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.row .profile .languages {
+  padding: 30px;
+  color: #fff;
+}
+@media (min-width: 577px) and (max-width: 800px) {
+  .row .profile .languages {
+    padding: 50px;
+  }
+}
+.row .profile .languages__title {
+  margin-bottom: 20px;
+}
+.row .profile .languages__title h4 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.row .profile .languages__item {
+  margin-bottom: 20px;
+}
+.row .profile .languages__item p {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.row .profile .languages__item p span {
+  color: rgba(255, 255, 255, 0.6);
+}
+.row .profile .interests {
+  padding: 30px;
+  color: #fff;
+}
+@media (min-width: 577px) and (max-width: 800px) {
+  .row .profile .interests {
+    padding: 50px;
+  }
+}
+.row .profile .interests__title {
+  margin-bottom: 20px;
+}
+.row .profile .interests__title h4 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.row .profile .interests__item {
+  margin-bottom: 20px;
+}
+.row .profile .interests__item p {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.row .profile .interests__item p span {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*# sourceMappingURL=stylesheet.css.map */
